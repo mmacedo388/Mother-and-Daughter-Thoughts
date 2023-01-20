@@ -1,0 +1,128 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif!important;
+}
+
+body
+{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif!important;
+  font-size:17.5px;
+  font-weight: 400px;
+  color: rgba(255,255,255, 0.8)!important;
+}
+
+a
+{
+  color: rgba(255,255,255, 0.8)!important;
+  text-decoration: none!important;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1, h2, h3{
+  color: #FFF!important;
+  font-family: 'Dancing Script', cursive!important;
+  text-align: center;
+  font-size: 35px;
+}
+
+.perfil{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+p, ol, ul{
+  color: rgba(255,255,255, 0.8)!important;
+  text-align: justify;
+  line-height: 150%;
+}
+
+ol, ul{
+  list-style: none;
+}
+
+.ass{
+  text-align: end;
+}
+
+/*********************************************************************************/
+/* Navbar                                                                        */
+/*********************************************************************************/
+
+aside{
+  background-color: #C6E0F7;
+  padding: 15px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 25%;
+}
+
+
+
+/*********************************************************************************/
+/* About Us                                                                      */
+/*********************************************************************************/
+.about-section{
+  display: flex!important;
+  flex-direction: column;
+  background:url(./img/a-mother-and-son-in-outdoors-at-sunset-with-copy-space.jpg);
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-color: #C6E0F7;
+  background-position: center;
+  overflow: hidden;
+  padding: 100px 522px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.inner-container {
+  display: flex!important;
+  width: 55%;
+  float: right;
+  background: rgba(0,0,0,0.5);
+  padding: 150px;
+  flex-direction: column;
+}
+
+ .inner-container h1{
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 900px;
+ }
+
+ .text{
+  font-size: 13px;
+  color: #FFF;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
+ }
+
+ .skills{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700px;
+  font-size: 13px;
+ }
+
+ @media screen and (max-width:1200px){
+  .about-section{
+    background-size: 100%;
+  }
+  .inner-container{
+    padding: 80px;
+  }
+ }
